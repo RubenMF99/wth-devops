@@ -24,4 +24,4 @@ jobs:
           acrName: ${{ vars.AZURE_PREFIX }}acr
           resourceGroup: ${{ vars.AZURE_RG }}
           containerAppName: ${{ vars.AZURE_PREFIX }}containerapp
-            containerAppEnvironment: ${{ vars.AZURE_PREFIX }}containerappenvironment
+          containerAppEnvironment: ${{ vars.AZURE_PREFIX }}containerappenvironment
